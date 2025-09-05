@@ -5,16 +5,16 @@ Proyek ini bertujuan untuk membangun model machine learning yang dapat mempredik
 
 ## 💾 Dataset
 Dataset yang digunakan adalah dataset 'diamonds' yang populer, diambil langsung dari Kaggle. Dataset ini berisi informasi dari sekitar 54,000 berlian dan mencakup fitur-fitur berikut:
-•	Harga dalam dolar Amerika Serikat ($) adalah fitur target.
-•	carat: merepresentasikan bobot (weight) dari diamonds (0.2-5.01), digunakan sebagai ukuran dari batu permata dan perhiasan.
-•	cut: merepresentasikan kualitas pemotongan diamonds (Fair, Good, Very Good, Premium, and Ideal).
-•	color: merepresentasikan warna, dari J (paling buruk) ke D (yang terbaik).
-•	clarity: merepresentasikan seberapa jernih diamonds (I1 (paling buruk), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (terbaik))
-•	x: merepresentasikan panjang diamonds dalam mm (0-10.74).
-•	y: merepresentasikan lebar diamonds dalam mm (0-58.9).
-•	z: merepresentasikan kedalaman diamonds dalam mm (0-31.8).
-•	depth: merepresentasikan z/mean(x, y) = 2 * z/(x + y) (43-79).
-•	table: merepresentasikan lebar bagian atas berlian relatif terhadap titik terlebar 43-95).
+- **price:** dalam dolar Amerika Serikat ($) adalah fitur target.
+- **carat:** merepresentasikan bobot (weight) dari diamonds (0.2-5.01), digunakan sebagai ukuran dari batu permata dan perhiasan.
+- **cut:** merepresentasikan kualitas pemotongan diamonds (Fair, Good, Very Good, Premium, and Ideal).
+- **color:** merepresentasikan warna, dari J (paling buruk) ke D (yang terbaik).
+- **clarity:**: merepresentasikan seberapa jernih diamonds (I1 (paling buruk), SI2, SI1, VS2, VS1, VVS2, VVS1, IF (terbaik))
+- **x:** merepresentasikan panjang diamonds dalam mm (0-10.74).
+- **y:** merepresentasikan lebar diamonds dalam mm (0-58.9).
+- **z:** merepresentasikan kedalaman diamonds dalam mm (0-31.8).
+- **depth:** merepresentasikan z/mean(x, y) = 2 * z/(x + y) (43-79).
+- **table:** merepresentasikan lebar bagian atas berlian relatif terhadap titik terlebar 43-95).
 
 ## ⚙️ Alur Kerja Proyek
 Proyek ini mengikuti alur kerja machine learning, diantara:

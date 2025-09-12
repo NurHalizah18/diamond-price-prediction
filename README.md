@@ -29,7 +29,7 @@ Proyek ini mengikuti alur kerja machine learning, diantara:
 
 ## 💡 Wawasan Kunci dari EDA
 - **`Carat` adalah Faktor Dominan:** Carat memiliki korelasi positif terkuat dengan harga. Hubungannya cenderung eksponensial.
-- **Paradoks Kualitas vs. Ukuran:** Ditemukan adanya paradoks menarik di mana kategori dengan `cut` dan `clarity` yang lebih rendah justru memiliki *rata-rata harga* yang lebih tinggi. Analisis lebih lanjut membuktikan bahwa ini disebabkan karena kategori tersebut cenderung berisi berlian dengan **ukuran (`carat`) yang lebih besar**, yang efeknya lebih dominan terhadap harga daripada kualitas.
+- **Kualitas vs. Ukuran:** Ditemukan adanya hal menarik di mana kategori dengan `cut` dan `clarity` yang lebih rendah seperti SI2 dan Fair justru memiliki *rata-rata harga* yang lebih tinggi dibandingkan dengan kualitas yg lebih bagus seperti Ideal dan IF. Analisis lebih lanjut membuktikan bahwa ini disebabkan karena kategori tersebut cenderung berisi berlian dengan **ukuran (`carat`) yang lebih besar**, yang efeknya lebih dominan terhadap harga daripada kualitas berlian itu sendiri.
 
 ## 📊 Performa Model
 Model Regresi Linear yang dibangun berhasil menunjukkan performa yang sangat baik dengan hasil sebagai berikut pada data tes:
